@@ -1,0 +1,25 @@
+{
+    "name": "aurora-project/reflection",
+    "type": "library",
+    "description": "Reflection utilities",
+    "homepage": "https://github.com/aurora-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tentifly",
+            "homepage": "https://tentifly.com"
+        }
+    ],
+    "keywords": [
+        "aurora",
+        "reflection"
+    ],
+    "require": {
+        "php": ">=8.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aurora\\": "src/"
+        }
+    }
+}
